@@ -38,7 +38,7 @@ export const HomeView: FC = ({}) => {
               {
                 products.map((product) => {
                   return (
-                    <ProductCard className="h-full" {...product} />
+                    <ProductCard key={product.id} className="h-full" {...product} />
                   )
                 })
               }
