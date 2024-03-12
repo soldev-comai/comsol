@@ -12,16 +12,16 @@ export const Footer: FC = () => {
                                 <Link href="https://solana.com" target="_blank" rel="noopener noreferrer" passHref className="text-secondary hover:text-white">
                                     <div className='flex flex-row ml-1'>
                                         <Image
-                                            src="/solanaLogo.png"
-                                            alt="solana icon"
-                                            width={156}
-                                            height={96}
+                                            src="/images/logo.webp"
+                                            alt="comai logo"
+                                            width={64}
+                                            height={64}
                                         />
                                     </div>
                                 </Link>
                             </div>
                             <div className="flex md:ml-2">
-                                <a href="https://twitter.com/solana_devs" type="button" className="border-white text-secondary hover:text-white leading-normal hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-9 h-9 m-1">
+                                <a href="https://twitter.com/communeaidotorg" type="button" className="border-white text-secondary hover:text-white leading-normal hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-9 h-9 m-1">
                                     <svg aria-hidden="true"
                                         focusable="false"
                                         data-prefix="fab"
@@ -37,7 +37,7 @@ export const Footer: FC = () => {
                                     ></path>
                                     </svg>
                                 </a>
-                                <a href="https://github.com/solana-labs"  type="button" className="border-white text-secondary hover:text-white leading-normal hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-9 h-9 m-1">
+                                <a href="https://github.com/commune-ai/comsol"  type="button" className="border-white text-secondary hover:text-white leading-normal hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-9 h-9 m-1">
                                     <svg aria-hidden="true"
                                         focusable="false"
                                         data-prefix="fab"
@@ -55,28 +55,28 @@ export const Footer: FC = () => {
                                 </a>
                             </div>
                             <div className="mb-6 m-1 sm:text-left place-items-start items-start font-normal tracking-tight text-secondary">
-                                        © 2023 Solana Foundation
+                                        © 2024 Commune AI
                             </div>
                         </div>
 
                         <div className="mb-6 items-center mx-auto max-w-screen-lg">
-                            <div className="font-normal capitalize mb-2.5">SOLANA</div>
+                            <div className="font-normal capitalize mb-2.5">Commune AI</div>
 
                             <div className="flex flex-col mb-0 gap-2">
-                                <Link href="https://solana.com" target="_blank" rel="noopener noreferrer" passHref className="text-secondary hover:text-white">
+                                <Link href="https://www.communeai.org/" target="_blank" rel="noopener noreferrer" passHref className="text-secondary hover:text-white">
                                     Labs
                                 </Link>
-                                <Link href="https://solana.org" target="_blank" rel="noopener noreferrer" passHref className="text-secondary hover:text-white">
-                                    Foundation
+                                <Link href="https://comswap.io/" target="_blank" rel="noopener noreferrer" passHref className="text-secondary hover:text-white">
+                                    ComSwap
                                 </Link>
-                                <Link href="https://solanamobile.com/" target="_blank" rel="noopener noreferrer" passHref className="text-secondary hover:text-white">
-                                    Solana Mobile
+                                <Link href="https://www.comstats.org/" target="_blank" rel="noopener noreferrer" passHref className="text-secondary hover:text-white">
+                                    ComStats
                                 </Link>
-                                <Link href="https://solanapay.com/" target="_blank" rel="noopener noreferrer" passHref className="text-secondary hover:text-white">
-                                    Solana Pay
+                                <Link href="https://www.comhub.app/" target="_blank" rel="noopener noreferrer" passHref className="text-secondary hover:text-white">
+                                    ComHub
                                 </Link>
-                                <Link href="https://solana.org/grants" target="_blank" rel="noopener noreferrer" passHref className="text-secondary hover:text-white">
-                                    Grants
+                                <Link href="https://comwallet.io/" target="_blank" rel="noopener noreferrer" passHref className="text-secondary hover:text-white">
+                                    ComWallet
                                 </Link>
                             </div>
                         </div>
@@ -85,20 +85,20 @@ export const Footer: FC = () => {
                             <h5 className="font-normal capitalize tracking-tight  mb-2.5">DEVELOPERS</h5>
 
                             <div className="flex flex-col mb-0 gap-2">
-                                <Link href="https://docs.solana.com/developers" target="_blank" rel="noopener noreferrer" passHref className="text-secondary hover:text-white">
+                                <Link href="https://github.com/commune-ai/commune/tree/main/docs" target="_blank" rel="noopener noreferrer" passHref className="text-secondary hover:text-white">
                                     Documentation
                                 </Link>
-                                <Link href="https://github.com/solana-mobile/solana-mobile-stack-sdk" target="_blank" rel="noopener noreferrer" passHref className="text-secondary hover:text-white">
-                                    Mobile SDK
+                                <Link href="https://github.com/commune-ai/commune" target="_blank" rel="noopener noreferrer" passHref className="text-secondary hover:text-white">
+                                    Python SDK
                                 </Link>
-                                <Link href="https://github.com/solana-labs/solana-pay" target="_blank" rel="noopener noreferrer" passHref className="text-secondary hover:text-white">
-                                    Pay SDK
+                                <Link href="https://github.com/commune-ai/comcli-rs" target="_blank" rel="noopener noreferrer" passHref className="text-secondary hover:text-white">
+                                    Rust SDK (Coming Soon)
                                 </Link>
-                                <Link href="https://solanacookbook.com/" target="_blank" rel="noopener noreferrer" passHref className="text-secondary hover:text-white">
+                                <Link href="https://www.communeai.org/docs/introduction" target="_blank" rel="noopener noreferrer" passHref className="text-secondary hover:text-white">
                                     Cookbook
                                 </Link>
-                                <Link href="https://solana.com/developers/dao" target="_blank" rel="noopener noreferrer" passHref className="text-secondary hover:text-white">
-                                    DAOs
+                                <Link href="https://ai-secure.github.io/DMLW2022/assets/papers/7.pdf" target="_blank" rel="noopener noreferrer" passHref className="text-secondary hover:text-white">
+                                    WhitePaper
                                 </Link>
                             </div>
                         </div>
@@ -107,20 +107,20 @@ export const Footer: FC = () => {
                             <h5 className="font-normal tracking-tight  mb-2.5">ECOSYSTEM</h5>
 
                             <div className="flex flex-col mb-0 gap-2">
-                                <Link href="https://solana.com/news" target="_blank" rel="noopener noreferrer" passHref className="text-secondary hover:text-white">
-                                    News
+                                <Link href="https://app.uniswap.org/explore/tokens/ethereum/0xc78b628b060258300218740b1a7a5b3c82b3bd9f" target="_blank" rel="noopener noreferrer" passHref className="text-secondary hover:text-white">
+                                    Uniswap v3
                                 </Link>
-                                <Link href="https://solana.org/validators" target="_blank" rel="noopener noreferrer" passHref className="text-secondary hover:text-white">
-                                    Validators
+                                <Link href="https://coinmarketcap.com/currencies/commune-ai/" target="_blank" rel="noopener noreferrer" passHref className="text-secondary hover:text-white">
+                                    CoinMarketCap
                                 </Link>
-                                <Link href="https://www.youtube.com/@SolanaFndn" target="_blank" rel="noopener noreferrer" passHref className="text-secondary hover:text-white">
-                                    Youtube
+                                <Link href="https://www.dextools.io/app/en/ether/pair-explorer/0xb76e7fc28e3c78455c61d6c4d630e0f1e121d254?t=1710206582664" target="_blank" rel="noopener noreferrer" passHref className="text-secondary hover:text-white">
+                                    DexTools
                                 </Link>
-                                <Link href="https://app.realms.today/discover" target="_blank" rel="noopener noreferrer" passHref className="text-secondary hover:text-white">
-                                    Realms
+                                <Link href="https://comchat.io/" target="_blank" rel="noopener noreferrer" passHref className="text-secondary hover:text-white">
+                                    ComChat
                                 </Link>
-                                <Link href="https://www.solanau.org" target="_blank" rel="noopener noreferrer" passHref className="text-secondary hover:text-white">
-                                    Solana U
+                                <Link href="https://bridge.comwallet.io/" target="_blank" rel="noopener noreferrer" passHref className="text-secondary hover:text-white">
+                                    Bridge
                                 </Link>
                             </div>
                         </div>

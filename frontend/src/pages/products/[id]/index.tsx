@@ -1,8 +1,11 @@
 import type { NextPage } from "next";
 import Head from "next/head";
-import { BasicsView } from "../views";
+import { useRouter } from "next/router";
 
-const Basics: NextPage = (props) => {
+const Products: NextPage = () => {
+  const router = useRouter();
+  const { id } = router.query;
+
   return (
     <div>
       <Head>
@@ -12,9 +15,12 @@ const Basics: NextPage = (props) => {
           content="Solana Entrance to Commune AI"
         />
       </Head>
-      <BasicsView />
+      
+      <div>
+        {id}
+      </div>
     </div>
   );
 };
 
-export default Basics;
+export default Products;

@@ -1,6 +1,6 @@
 {
   "name": "solana-dapp-next",
-  "version": "0.2.0",
+  "version": "0.0.1",
   "author": "Solana Maintainers <maintainers@solana.foundation>",
   "license": "MIT",
   "private": false,
@@ -8,7 +8,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "server": "npx json-server src/utils/fake-api/db.json --port 8001"
   },
   "dependencies": {
     "@heroicons/react": "^1.0.5",

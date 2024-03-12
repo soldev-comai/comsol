@@ -11,22 +11,22 @@ require('../styles/globals.css');
 
 const App: FC<AppProps> = ({ Component, pageProps }) => {
     return (
-        <>
-          <Head>
-            <title>Solana Scaffold Lite</title>
-          </Head>
+      <>
+        <Head>
+          <title>ComSol - Solana Entrance to Commune AI</title>
+        </Head>
 
-          <ContextProvider>
-            <div className="flex flex-col h-screen">
-              <Notifications />
-              <AppBar/>
-              <ContentContainer>
-                <Component {...pageProps} />
-                <Footer/>
-              </ContentContainer>
-            </div>
-          </ContextProvider>
-        </>
+        <ContextProvider>
+          <div className="flex flex-col h-screen">
+            <Notifications />
+            <AppBar/>
+            <ContentContainer>
+              <Component {...pageProps} />
+              <Footer/>
+            </ContentContainer>
+          </div>
+        </ContextProvider>
+      </>
     );
 };
 
